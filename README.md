@@ -2,34 +2,35 @@
 
 ## Text mining for history and literature
 
+### Fall 2023
+
 ### Staff and sections
 
 **Instructor:** [Matthew Wilkens](https://infosci.cornell.edu/content/Wilkens)\
-**Graduate TAs:** [Person One](link)\
-**Undergrad TAs:** List here
+**Graduate TAs:** [Breanna Green](https://bregreen.github.io/), Kiara Liu, Karen Kuang\
+**Undergrad TAs:** Naba Deyab, Catherine Wang
 
-**Term:** Fall 2023\
-**Credits:** 3\
+**Credits:** 3 (3350) or 4 (6350)\
 **Mode:** In person (only)
 
-**Lecture:** MW 9:05-9:55am, Upson 216\
-**Sections:** [**TK**]
-  * F  9:05-9:55  Olin 145
-  * F 10:10-11:00 Upson 146
-  * F 11:20-12:10 Hollister 312
-  * F 12:25-1:15  Philips 307
-  * *Additional grad section*: F 2:40-3:30pm (Gates 114)
+**Lecture:** MW 9:05-9:55am, Statler 265\
+**Sections:**
+  * F  9:05- 9:55 Upson 202
+  * F 11:15-12:05 Upson 216
+  * F  2:30- 3:20 Statler 441
+  * F  3:35- 4:25 Hollister 362 
+  * Grad section: F 9:05-11:00am Upson 102
 
-**Office hours:** See [Canvas](link here)\
+**Office hours:** See [Canvas](https://canvas.cornell.edu/courses/57246)\
 **Additional resources:** See the [**Mechanics**](#mechanics) section below.
 
 ### Waitlist and prerequisites
 
-Seats are currently available. Note that you must have completed [INFO 2950](https://classes.cornell.edu/browse/roster/FA23/class/INFO/2950) (Introduction to Data Science) or equivalent to enroll in the class.
+The course is currently full, but the waitlist on [Student Center](https://studentcenter.cornell.edu) is open. Note that you must have completed [INFO 2950](https://classes.cornell.edu/browse/roster/FA23/class/INFO/2950) (Introduction to Data Science) or equivalent to enroll in the class.
 
 ### Summary
 
-A course on the uses of text mining and other data-intensive techniques to assist analysis of textual humanities materials. Special emphasis on literary and historical documents.
+The class will introduce methods for computer-assisted analysis of historical and literary text collections. It will cover corpus curation, representing text as data, building statistical models from text, and interpreting quantitative results. The class will also reflect on how computational methods fit with existing practices in the humanities, and how we can use models as complements to our own interpretations. Following the course, students will be able to assist faculty in quantitative and computational humanities scholarship.
 
 ### Description
 
@@ -39,49 +40,73 @@ Most of the methods treated in the class are relevant in multiple fields. Studen
 
 ### Objectives and learning goals
 
-The primary objective of the course is to build proficiency in text analysis and data mining for the humanities. Students who complete the course will have knowledge of standard approaches to text analysis and will be familiar with the humanistic ends to which those approaches might be put. Secondary objectives include acquiring basic understanding of relevant literary history, of integrating quantitative with qualitative evidence, and of best practices in small-scale project management.
+* Describe and evaluate major existing results in quantitative humanities research 
+* Recognize, explain, evaluate, and implement standard techniques for the use of text as data
+* Create reliable, compelling, data-driven humanities research reports that apply suitable text-mining methods to existing humanities questions
+* Identify and analyze historical, ethical, and epistemic limitations of existing and potential textual corpora
+* **For graduate students:** Evaluate and adapt text-mining methods to current research problems relevant to the student's work
+* **For graduate students:** Analyze, evaluate, and present current research findings in computational text analysis 
 
 ### Mechanics
 
 We will use:
 
 * **GitHub** (right here) to distribute lecture materials, code, and datasets. The current versions of the syllabus (this page) and the [schedule](./schedule.md) are always on GitHub, too. You might want to watch or star this repo to be notified of changes.
-* **CMS** to manage problem sets and other code work and to track grades.
-* **Canvas** to distribute restricted readings and other non-public materials, including Zoom links.
-* **Ed** for Q&A.
+* [**CMS**](https://cmsx.cs.cornell.edu/) to manage problem sets and other code work and to track grades.
+* [**Canvas**](https://canvas.cornell.edu/courses/57246) to distribute restricted readings and other non-public materials.
+* [**Ed**](https://edstem.org/) for Q&A.
 * **Google Drive** to build and manage a class corpus.
 
-Links and detailed info about each of these are available via the [course Canvas site](https://canvas.cornell.edu/courses/39210).
+Links and detailed info about each of these are available via the [course Canvas site](https://canvas.cornell.edu/courses/57246).
 
-Note that you must generally be logged in through your Cornell account to access non-public resources such as Zoom meetings, lecture recordings, Google Drive folders.
+Note that you must generally be logged in through your Cornell account to access non-public resources (everything but GitHub).
 
 ### Work and grading
+#### Basis of Grade Determination
+Grades will be based on six problem sets (45% in sum), a take-home final exam or project (35%), three reading responses (10% in sum), and participation and professionalism (10%). **You must achieve a passing grade in each of these components to pass the course.**
 
-Grades will be based on weekly problem sets (50% in sum), a midterm mini-project (15%), reading responses (10% in sum), a take-home final exam or optional final project (20%), and consistent professionalism (including attendance and participation, 5%). *You must achieve a passing grade in each of these components to pass the course.*
+**Graduate students** (enrolled in 6350) must complete a final project in place of the final exam.
 
-**Graduate students** (enrolled in 6350) must complete a final project in place of the final exam and are strongly encouraged to attend an additional weekly section meeting for 6350 (Fridays, time to be determined).
+#### Grading Scale
+Grades will be assigned on the following scale: \
+97 - 100% A+ \
+93 - 97% 	A 	\	
+90 - 93% 	A- 	\	
+87 - 90% 	B+ 	\	
+83 - 87% 	B 	\	
+80 - 83% 	B- 	\	
+77 - 80% 	C+ \
+73 - 77% 	C \
+70 - 73% 	C- \
+67 - 70% 	D+ \
+63 - 67% 	D \
+63% - 0%	F \
 
-A small amount of **extra credit** will be awarded for IS/Communications SONA study completion (0.5 course point per SONA credit assigned to this class, up to 1.0 total course point) and for consistent, helpful contributions to Ed discussions (up to 1.0 course point).
+Participation points are awarded primarily for performance in **section**, with some consideration of lecture attendance and participation.			
+* 100% of participation points: almost always contributes, raising thoughtful points
+* 80% of participation points: frequently contributes, raising thoughtful points
+* 60% of participation points: occasionally makes a valuable contribution
+* 40% of participation points: rarely makes a valuable contribution
+* 0% of participation points: attends lectures and section, but never contributes, or actively interferes with learning
+
+#### Extra credit
+A small amount of extra credit will be awarded for IS/Communications SONA study completion (0.5 course point per SONA credit assigned to this class, up to 1.0 total course point) and for consistent, helpful contributions to Ed discussions (up to 1.0 course point).
 
 ### Texts and readings
 
-There is one required textbook for the course:
-
-* Karsdorp, Kestemont, and Riddell. [*Humanities Data Analysis*](https://www.cornellstore.com/adoption-search-results?ccid=335984&itemid=359684).
-
-Readings from this textbook will be assigned for most weeks. All other assigned readings will be available online, either through the open web or via Canvas. See the [schedule](./schedule.md) for details.
+There is no required textbook for the course. Assigned readings will be available online, either through the open web or via Canvas. See the [schedule](./schedule.md) for details.
 
 There are five textbooks that may be useful for students who wish to consult them. **They are not required and most students will not need them.**
 
 * Guttag. [*Introduction to Computation and Programming Using Python (3rd ed.)*](https://www.amazon.com/dp/0262542366/). Useful for students who need or want a refresher on basic concepts in Python.
-* Walsh. [*Introduction to Cultural Analytics and Python*](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html). An intro-level, interactive textbook developed at Cornell that covers material similar to 3350. A good place to start if you're feeling behind on the fundamentals.
+* Walsh. [*Introduction to Cultural Analytics and Python*](https://melaniewalsh.github.io/Intro-Cultural-Analytics/welcome.html). An intro-level, interactive textbook developed at Cornell that covers material similar to the first half of 3350. A good place to start if you're feeling behind on the fundamentals.
 * Bengfort, Bilbro, and Ojeda. [*Applied Text Analysis with Python*](https://www.amazon.com/dp/1491963042). A *very* applied book intended for working developers who want to learn the standard Python stack for text analysis.
 * Jurafsky and Martin. [*Speech and Language Processing (3rd ed.)*](https://web.stanford.edu/~jurafsky/slp3/). A detailed textbook focusing on many of the core topics in natural language processing. Probably more advanced than most students will require, but a great resource for those who want more technical depth. The linked version is the openly available draft of the third edition. The published [second edition is also available for sale](https://www.amazon.com/dp/0131873210).
-* Jockers and Thalken. [*Text Analysis with R for Students of Literature (2nd ed.)*](https://www.amazon.com/dp/B086KZL3DR). An ideal textbook for this class, but in R. Co-authored by one of our PhD TAs!
+* Jockers and Thalken. [*Text Analysis with R for Students of Literature (2nd ed.)*](https://www.amazon.com/dp/B086KZL3DR). An ideal textbook for this class, but in R. Co-authored by one of our PhD students in IS!
 
 ### Schedule
 
-In general, Monday lectures will introduce new technical material. Wednesday sessions will combine technical instruction with discussion of assigned readings from the scholarly literature. Friday sections are smaller and devoted to focused work on problem sets and to follow-up questions about topics previously introduced.
+In general, Monday lectures will introduce new technical material. Wednesday sessions will combine technical instruction with discussion of assigned readings from the scholarly literature. Friday sections are smaller and devoted to discussion of readings, to focused work on problem sets, and to follow-up questions about topics previously introduced.
 
 For the detailed (and updating) list of topics and readings, see the course [schedule](./schedule.md).
 
@@ -105,35 +130,43 @@ If you experience harassment in any form, or if you would like to discuss your e
 
 #### Attendance
 
-This is a class of moderate size that will make frequent use of class time to discuss readings and to debate different approaches to academic inquiry. It also has a waitlist a mile long. For this reason, **attendance (virtual and physical, as circumstances dictate) is required**. When meeting by Zoom, **your camera must be on** or you will be marked absent. If you feel your circumstances require an exception to this policy, you should consult with Professor Wilkens directly to explain why.
+This is a class of moderate size that will make frequent use of lecture and section time to discuss readings and to debate different approaches to academic inquiry. For this reason, attendance at lecture and section is required.
 
-Students in mandatory isolation or who are in highly displaced time zones and who have received individual permission are excused from attending Monday and Wednesday lectures. These students should watch the recorded lectures as soon as they are available and post any questions to Ed.
-
-If you need to miss a class meeting, please complete the [absence form](https://forms.gle/ZQqeoqQKsGr9mhkx9) *before the meeting in question* and watch the recorded video of the session you missed once it is available. If you miss section on Friday, a recording may not be available. Consult with your section leader for appropriate steps. In every case, assigned work remains due at the appointed time.
-
-**Note:** *Participation* is much more important than *attendance*. Your grade will not suffer if you make the wise decision to stay home when you might infect others.
+If you need to miss a lecture or section meeting, please complete the [absence form](https://forms.gle/dNsFR7ZRXTmPczrLA) *before the meeting in question*. When you return, consult with a classmate to review the material you missed. Lectures and sections will not be recorded. If you miss a section meeting, consult with your section leader for appropriate steps. In every case, assigned work remains due at the appointed time.
 
 #### Slip days
 
-**Late work** is accepted subject to a limit of **ten total slip days** for the semester. You may submit any individual assignment up to **four** days (96 hours) late. The slip day policy *does not* apply to the reading responses, which may not be submitted late, since they are tied to in-class activities.
+**Late work** is accepted subject to a limit of **five total slip days** for the semester. You may submit any individual assignment up to **three** days (72 hours) late. The slip day policy *does not* apply to the reading responses, which may not be submitted late, since they are tied to in-class activities.
 
 If you expect to miss a deadline or to be absent for an extended period due to truly exceptional circumstances, contact Professor Wilkens as far in advance as possible so that we can discuss potential accommodations.
 
 #### Regrade requests
 
-If you feel that the graders have made a clear, objective, and significant mistake in assessing your work, you may request a regrade via CMS not later than one week after feedback is released. Remember that this process exists to correct mistakes. This process does not exist to lobby for points.
+If you feel that the graders have made a clear, objective, and significant mistake in assessing your work, you may request a regrade via CMS not later than one week after feedback is released. Regrade requests are typically processed within a week or two of submission. You will be notified of the outcome as soon as it is ready.
 
-Regrade requests are typically processed within a week or two of submission. You will be notified of the outcome as soon as it is ready.
+Remember that this process exists to correct mistakes. This process does not exist to lobby for points. We want to give grades that accurately represent our assessment of your understanding of course material. Hence, if you are given a lower score than you should have been, due to an obvious grading error, you should absolutely bring it to our attention. However, we must explicitly mention an additional consequence of the importance of grade accuracy: if we notice that you have been assigned more points than you should have been, we are duty-bound to correct such scores downward to the correct value.
 
-We want to give grades that accurately represent our assessment of your understanding of course material. Hence, if you are given a lower score than you should have been, due to an obvious grading error, you should absolutely bring it to our attention. However, we must explicitly mention an additional consequence of the importance of grade accuracy: if we notice that you have been assigned more points than you should have been, we are duty-bound to correct such scores downward to the correct value.
 
 #### Academic integrity
 
 Each student in this course is expected to abide by the Cornell University [Code of Academic Integrity](http://theuniversityfaculty.cornell.edu/academic-integrity/). Any work submitted by a student in this course for academic credit will be the student's own work unless specifically and explicitly permitted otherwise.
 
-Using other people's code is an important part of programming but, for group projects, the code should be substantially the work of the group members (except for standard libraries). Any code used in projects that was not written by the group members should be placed in separate files and clearly labeled with their source URLs. If you have benefitted from online resources such as StackOverflow, list the URLs in comments in your own code, even if you did not directly copy anything.
+Using other people's code is an important part of programming, but all code should be the work of each individual student or (for group projects) group members (except for standard libraries). Any code submitted as part of an assignment that was not written by the submitting student/group should be placed in separate files and clearly labeled with their source URLs. If you have benefitted from online resources such as StackOverflow, list the URLs in comments in your own code, even if you did not directly copy anything.
 
-Project work that relates to your other classes or research is encouraged, but you may not recycle assignments. There must be no doubt that the work you turn in for this class was done for this class. When in doubt, consult with me during office hours.
+Work that relates to your other classes or research is encouraged, but you may not recycle assignments. There must be no doubt that the work you turn in for this class was done for this class. When in doubt, consult with me during office hours.
+
+#### Generative artificial intelligence
+
+I study generative AI and, honestly, I don't think general-purpose systems like ChatGPT will get you very far on the assignments for this class. But I could be wrong. In any case, AI systems aren't banned. If you use them for any aspect of your work, you must:
+
+* Clearly indicate the content of your submission that was produced by an AI system or with the assistance of such a system;
+* Identify the system(s) you used;
+* Include in full (perhaps as an appendix) the prompts you used to produce the identified content, including prompts you explored but did not use;
+* Write a short statement summarizing your assessment of the system's performance on the task.
+
+Use of generative AI *without* following these steps will constitute an academic integrity violation.
+
+I reserve the right to ban the use of generative AI systems outright at a later point in the semester if they become a net negative for our learning goals, but I hope and expect that that won't be necessary.
 
 #### Disabilities
 
@@ -144,3 +177,8 @@ Every student's access is important to us. If you have, or think you may have, a
 * If you are approved for exam accommodations, please consult with me at least two weeks before the scheduled exam date to confirm the testing arrangements.
 * If you experience any access barriers in this course, such as with printed content, graphics, online materials, or any communication barriers, reach out to me and/or your SDS counselor right away.
 * If you need an immediate accommodation, please speak with me after class or send an email message to me and to [SDS](mailto:sds_cu@cornell.edu).
+
+#### Metal Health and Wellbeing
+
+Your health and wellbeing are important to us. There are services and resources at Cornell designed specifically to bolster undergraduate, graduate, and professional student mental health and well-being. If you or a friend are struggling emotionally or feeling stressed, fatigued, or burned out, there is a [continuum of campus resources](https://mentalhealth.cornell.edu/get-support/support-students) available to you. Help is also available any time day or night through Cornell’s 24/7 phone consultation (607-255-5155). You can also reach out to me, your college student services office, your resident advisor, or Cornell Health for support.
+
