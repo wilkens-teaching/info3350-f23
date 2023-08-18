@@ -70,7 +70,8 @@ Grades will be based on six problem sets (45% in sum), a take-home final exam or
 #### Grading Scale
 Grades will be assigned on the following scale:
 
-`97 - 100% A+
+```
+97 - 100% A+
 93 -  97% A
 90 -  93% A-
 87 -  90% B+
@@ -81,7 +82,8 @@ Grades will be assigned on the following scale:
 70 -  73% C-
 67 -  70% D+
 63 -  67% D
-63 -   0%	F`
+63 -   0% F
+```
 
 Participation points are awarded primarily for performance in **section**, with some consideration of lecture attendance and participation.	
 		
