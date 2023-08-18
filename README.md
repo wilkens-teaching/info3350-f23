@@ -7,13 +7,13 @@
 ### Staff and sections
 
 **Instructor:** [Matthew Wilkens](https://infosci.cornell.edu/content/Wilkens)\
-**Graduate TAs:** [Breanna Green](https://bregreen.github.io/), Kiara Liu, Karen Kuang\
+**Graduate TAs:** [Breanna Green](https://bregreen.github.io/), Kiara Liu, Karen Kuang<br>
 **Undergrad TAs:** Naba Deyab, Catherine Wang
 
-**Credits:** 3 (3350) or 4 (6350)\
+**Credits:** 3 (3350) or 4 (6350)<br>
 **Mode:** In person (only)
 
-**Lecture:** MW 9:05-9:55am, Statler 265\
+**Lecture:** MW 9:05-9:55am, Statler 265<br>
 **Sections:**
   * F  9:05- 9:55 Upson 202
   * F 11:15-12:05 Upson 216
@@ -68,21 +68,23 @@ Grades will be based on six problem sets (45% in sum), a take-home final exam or
 **Graduate students** (enrolled in 6350) must complete a final project in place of the final exam.
 
 #### Grading Scale
-Grades will be assigned on the following scale: \
-97 - 100% A+ \
-93 - 97% 	A \	
-90 - 93% 	A- \	
-87 - 90% 	B+ \	
-83 - 87% 	B \	
-80 - 83% 	B- \	
-77 - 80% 	C+ \
-73 - 77% 	C \
-70 - 73% 	C- \
-67 - 70% 	D+ \
-63 - 67% 	D \
+Grades will be assigned on the following scale:
+
+97 - 100% A+<br>
+93 - 97% 	A<br>
+90 - 93% 	A-<br>
+87 - 90% 	B+<br>
+83 - 87% 	B<br>
+80 - 83% 	B-<br>
+77 - 80% 	C+<br>
+73 - 77% 	C<br>
+70 - 73% 	C-<br>
+67 - 70% 	D+<br>
+63 - 67% 	D<br>
 63% - 0%	F
 
-Participation points are awarded primarily for performance in **section**, with some consideration of lecture attendance and participation.			
+Participation points are awarded primarily for performance in **section**, with some consideration of lecture attendance and participation.	
+		
 * 100% of participation points: almost always contributes, raising thoughtful points
 * 80% of participation points: frequently contributes, raising thoughtful points
 * 60% of participation points: occasionally makes a valuable contribution
