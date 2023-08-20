@@ -28,7 +28,9 @@ As listed in the Cornell course roster (subject to change).
 
 ### Waitlist and prerequisites
 
-The course is currently full, but the waitlist on [Student Center](https://studentcenter.cornell.edu) is open. Note that you must have completed [INFO 2950](https://classes.cornell.edu/browse/roster/FA23/class/INFO/2950) (Introduction to Data Science) or equivalent to enroll in the class.
+The course is currently full, but the waitlist on [Student Center](https://studentcenter.cornell.edu) is open. If you are on the waitlist, please do attend lectures and section meetings while you wait for a PIN. It is otherwise almost impossible to catch up if you're admitted at the end of the add period. 
+
+**Note that you must have completed [INFO 2950](https://classes.cornell.edu/browse/roster/FA23/class/INFO/2950) (Introduction to Data Science) or equivalent to enroll in the class**.
 
 ### Summary
 
