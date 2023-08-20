@@ -26,7 +26,7 @@ To get things set up, you're going to:
 
 **Everything below happens in a terminal window/command prompt.**
 
-  * Open a terminal window and run `conda update conda`. (On Windows, you might have to open an "Anaconda command prompt" or similar, if you already have `conda` installed.) If it works, move to the next step. If not, download and install [`miniconda`](https://docs.conda.io/en/latest/miniconda.html) or [`miniforge`](https://github.com/conda-forge/miniforge) (the latter especially for Apple silicon systems).
+  * Open a terminal window and run `conda update conda`. (On Windows, you might have to open an "Anaconda command prompt" or similar, if you already have `conda` installed.) If it works, move to the next step. If not, download and install [`miniconda`](https://docs.conda.io/en/latest/miniconda.html).
   * Download the course package list file from GitHub (`info-3350-packages.txt` in this `setup` directory). Pay attention to where you've saved it. Then:
 
 
