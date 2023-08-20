@@ -4,7 +4,7 @@ Below are instructions to install, update, and use the correct python programmin
 
 ## Concepts
 
-This course uses python. Specifically, we'll use python in conjunction Jupyter notebooks, which are documents that integrate code, outputs, and documentation in a single file.
+This course uses python. Specifically, we'll use python in conjunction with Jupyter notebooks, which are documents that integrate code, outputs, and documentation in a single file.
 
 To make this work, you need a few things:
 
@@ -32,6 +32,7 @@ To get things set up, you're going to:
 
 ```
 conda update conda
+conda config --add channels defaults
 conda config --append channels conda-forge
 conda create --name 3350 --file info-3350-packages.txt
 ```
@@ -64,7 +65,7 @@ conda activate 3350
 conda update --file info-3350-packages.txt
 ```
 
-If we add any packages to the list (again, unlikely but not impossible), you'd also need to run `conda install --file info-3350-packages.txt` as a final step to install those newly added packages.
+If we add any packages to the list (possible during the second half of the semester), you'd also need to run `conda install --file info-3350-packages.txt` as a final step to install those newly added packages.
 
 ## The filesystem
 

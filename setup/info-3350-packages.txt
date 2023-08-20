@@ -8,6 +8,7 @@ networkx
 nltk
 numpy
 pandas
+pytorch
 requests
 scikit-image
 scikit-learn
@@ -15,4 +16,5 @@ seaborn
 spacy
 statsmodels
 tqdm
+transformers
 umap-learn
