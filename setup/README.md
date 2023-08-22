@@ -41,7 +41,7 @@ conda create --name 3350 --file info-3350-packages.txt
 
 ```
 conda activate 3350
-python -m nltk.downloader omw-1.4 punkt sentiwordnet snowball_data stopwords treebank vader_lexicon
+python -m nltk.downloader omw-1.4 punkt wordnet sentiwordnet snowball_data stopwords treebank vader_lexicon
 python -m spacy download en_core_web_sm
 python -m spacy download en_core_web_lg
 ```
