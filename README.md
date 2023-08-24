@@ -17,11 +17,11 @@
 **Sections:**<br>
 As listed in the Cornell course roster (subject to change).
 
-  * F  9:05- 9:55 Upson 202
-  * F 11:15-12:05 Upson 216
-  * F  2:30- 3:20 Statler 441
-  * F  3:35- 4:25 Hollister 362 
-  * Grad section: F 9:05-11:00am Upson 102
+  * F  9:05- 9:55, Upson 202, Kiara
+  * F 11:15-12:05, Upson 216, Kiara
+  * F  2:30- 3:20, Statler 441, Breanna
+  * F  3:35- 4:25, Hollister 362, Breana 
+  * Grad section: F 9:05-11:00am, Upson 102, Matt
 
 **Office hours:** See [Canvas](https://canvas.cornell.edu/courses/57246)<br>
 **Additional resources:** See the [**Mechanics**](#mechanics) section below.
