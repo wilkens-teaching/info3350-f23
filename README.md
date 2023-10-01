@@ -67,7 +67,7 @@ Note that you must generally be logged in through your Cornell account to access
 
 ### Work and grading
 #### Basis of Grade Determination
-Grades will be based on six problem sets (45% in sum), a take-home final exam or project (35%), three reading responses (10% in sum), and participation and professionalism (10%). **You must achieve a passing grade in each of these components to pass the course.**
+Grades will be based on five problem sets (45% in sum), a take-home final exam or project (35%), three reading responses (10% in sum), and participation and professionalism (10%). **You must achieve a passing grade in each of these components to pass the course.**
 
 **Graduate students** (enrolled in 6350) must complete a final project in place of the final exam.
 
