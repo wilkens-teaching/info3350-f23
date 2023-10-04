@@ -10,20 +10,20 @@ def basic_sanitize(in_string):
     in_string = ' '.join(in_string.split())
     return in_string
 
-def bayes_compare_language(l1, l2, features = None, ngram = 1, prior=.01, prior_weight = 10, cv = None, vocab = None):
+def bayes_compare_language(l1, l2, features = None, ngram = 1, prior=.01, prior_weight = None, cv = None, vocab = None):
     '''
     Arguments:
     - l1, l2; a list of strings from each language sample, 
        or a list of index positions corresponding to each sample in the supplied counts matrix
-    - features: array of precomputed feature data if not working from string input
+    - features: array of precomputed feature data, if not working from string input
     - ngram; an int describing up to what n gram you want to consider (1 is unigrams,
     2 is bigrams + unigrams, etc). Ignored if a custom CountVectorizer is passed.
     - prior; either a float describing a uniform prior, or a vector describing a prior
     over vocabulary items. If you're using a predefined vocabulary, make sure to specify that
     when you make your CountVectorizer object.
-    - prior_weight; amount by which to multiply priors after normalizing
+    - prior_weight; if not None, then amount by which to multiply priors after normalizing
     - cv; a sklearn.feature_extraction.text.CountVectorizer object, if desired.
-    - vocab; a list of terms corresponding to the columns in features data
+    - vocab; a list of terms corresponding to the columns in features data, if not None
 
     Returns:
     - A list of length |Vocab| where each entry is a (n-gram, zscore) tuple.'''
@@ -55,9 +55,12 @@ def bayes_compare_language(l1, l2, features = None, ngram = 1, prior=.01, prior_
     else:
         count_matrix[0, :] = np.sum(counts_mat[l1, :], axis = 0)
         count_matrix[1, :] = np.sum(counts_mat[l2, :], axis = 0)
-    #normalize counts and priors
-    priors = priors/np.linalg.norm(priors, ord=1) * prior_weight
-    count_matrix = count_matrix/np.linalg.norm(count_matrix, ord=1, axis=1, keepdims=True)
+    #normalize and weight counts and priors if indicated
+    # if not normalizing, priors are effectively weighted by wordcount of baseline corpus
+    #  relative to wordcount of sample corpora
+    if prior_weight:
+        priors = priors/np.linalg.norm(priors, ord=1) * prior_weight
+        count_matrix = count_matrix/np.linalg.norm(count_matrix, ord=1, axis=1, keepdims=True)
     a0 = np.sum(priors)
     n1 = np.sum(count_matrix[0,:])
     n2 = np.sum(count_matrix[1,:])
