@@ -1,4 +1,5 @@
 adjusttext
+altair
 bs4
 ipywidgets
 jieba
