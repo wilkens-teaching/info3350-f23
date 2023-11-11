@@ -1,3 +1,4 @@
+accelerate
 adjusttext
 altair
 bs4
@@ -21,5 +22,5 @@ shap
 spacy
 statsmodels
 tqdm
-transformers
+transformers[torch]
 umap-learn
