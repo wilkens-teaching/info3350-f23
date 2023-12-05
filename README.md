@@ -59,7 +59,6 @@ We will use:
 * [**CMS**](https://cmsx.cs.cornell.edu/) to manage problem sets and other code work and to track grades.
 * [**Canvas**](https://canvas.cornell.edu/courses/57246) to distribute restricted readings and other non-public materials.
 * [**Ed**](https://edstem.org/) for Q&A.
-* **Google Drive** to build and manage a class corpus.
 
 Links and detailed info about each of these are available via the [course Canvas site](https://canvas.cornell.edu/courses/57246).
 
@@ -120,7 +119,7 @@ For the detailed (and updating) list of topics and readings, see the course [sch
 
 ### Final exam
 
-A **final exam** in the form of a take-home project is due during the finals period. More information will be posted as that time draws closer.
+A **final exam** in the form of a take-home project is due during the finals period. More information is available in the `final_exam` directory.
 
 **Undergraduates** (enrolled in 3350) may elect to complete a project in lieu of the exam. If you take this route, you may work in a group of up to three students. The expected amount of work on the project will be scaled by the number of group members. Except in unusual circumstances, all group members will receive the same grade.
 
